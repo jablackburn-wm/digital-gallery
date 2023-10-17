@@ -1,0 +1,236 @@
+[
+    {
+      "name": "Mona-Lisa",
+      "image": "mona-lisa.jpeg",
+      "description": "The Mona Lisa is an oil painting by Italian artist, inventor, and writer Leonardo da Vinci. Likely completed in 1506, the piece features a portrait of a seated woman set against an imaginary landscape. In addition to being one of the most famous paintings, it is also the most valuable.",
+      "auction": true,
+      "highestBid": 93309000,
+      "artist": "Leonardo-da-Vinci"
+    },
+    {
+      "name": "Starry-Night",
+      "image": "starry-night.webp",
+      "description": "The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.",
+      "auction": true,
+      "highestBid": 84823000,
+      "artist": "Vincent-van-Gogh"
+    },
+    {
+      "name": "Portrait-of-Dora-Maar",
+      "item_id": 1,
+      "image": "dora-maar.jpeg",
+      "description": "Portrait of Dora Maar is a 1937 oil on canvas painting by Pablo Picasso. It depicts Dora Maar, (original name Henriette Theodora Markovitch), the painter's lover, seated on a chair. It is part of the collection of the Musée Picasso, in Paris, where it is considered to be one of Picasso's masterpieces.",
+      "auction": false,
+      "price": 322000,
+      "artist": "Pablo-Picasso"
+    },
+    {
+      "name": "The-Burning-Giraffe",
+      "image": "burning-giraffe.jpeg",
+      "description": "The Burning Giraffe (1937) is a painting by the Spanish surrealist Salvador Dalí. It is an oil painting on panel and is in the Kunstmuseum Basel.",
+      "auction": true,
+      "highestBid": 194150,
+      "artist": "Salvador-Dali"
+    },
+    {
+      "name": "Guernica",
+      "image": "guernica.jpeg",
+      "description": "Guernica is a large 1937 oil painting on canvas by Spanish artist Pablo Picasso. It is one of his best-known works, regarded by many art critics as the most moving and powerful anti-war painting in history. It is exhibited in the Museo Reina Sofía in Madrid.",
+      "auction": true,
+      "highestBid": 177000,
+      "artist": "Pablo-Picasso"
+    },
+    {
+      "name": "Shot-Marilyns",
+      "item_id": 2,
+      "image": "shot-marilyns.jpeg",
+      "description": "Shot Marilyns is a series of silkscreen paintings produced in 1964 by Andy Warhol, each canvas measuring 40 inches square, and each a portrait of Marilyn Monroe.",
+      "auction": false,
+      "price": 99500,
+      "artist": "Andy-Warhol"
+    },
+    {
+      "name": "Saint-Jerome-in-the-Wilderness",
+      "image": "saint-jerome.jpeg",
+      "description": "Saint Jerome in the Wilderness is an unfinished painting by the Italian Renaissance artist Leonardo da Vinci, dated c. 1480-1490. The composition of the painting has been drafted in monochrome onto the primed wooden panel. At an unknown date after Leonardo's death, the panel was cut into five pieces before eventually being restored into its original form (minus a very small triangle).",
+      "auction": true,
+      "highestBid": 100500,
+      "artist": "Leonardo-da-Vinci"
+    },
+    {
+      "name": "Virgin-of-the-Rocks",
+      "item_id": 3,
+      "image": "virgin-of-the-rocks.jpeg",
+      "description": "The Virgin of the Rocks (Italian: Vergine delle rocce), sometimes the Madonna of the Rocks, is the name of two paintings by the Italian Renaissance artist Leonardo da Vinci, of the same subject, with a composition which is identical except for several significant details.",
+      "auction": false,
+      "price": 614000,
+      "artist": "Leonardo-da-Vinci"
+    },
+    {
+      "name": "The-Potato-Eaters",
+      "item_id": 4,
+      "image": "potato-eaters.jpeg",
+      "description": "The Potato Eaters (Dutch: De Aardappeleters) is an oil painting by Dutch artist Vincent van Gogh painted in April 1885 in Nuenen, Netherlands. It is in the Van Gogh Museum in Amsterdam. The original oil sketch of the painting is at the Kröller-Müller Museum in Otterlo, and he also made lithographs of the image, which are held in collections including the Museum of Modern Art in New York City. The painting is considered to be one of Van Gogh's masterpieces.",
+      "auction": false,
+      "price": 304000,
+      "artist": "Vincent-van-Gogh"
+    },
+    {
+      "name": "The-Persistence-of-Memory",
+      "image": "persistence-of-memory.jpeg",
+      "description": "The Persistence of Memory (Catalan: La persistència de la memòria) is a 1931 painting by artist Salvador Dalí and one of the most recognizable works of Surrealism. First shown at the Julien Levy Gallery in 1932, since 1934 the painting has been in the collection of the Museum of Modern Art (MoMA) in New York City, which received it from an anonymous donor. It is widely recognized and frequently referred to in popular culture, and sometimes referred to by more descriptive titles, such as 'Melting Clocks', 'The Soft Watches' or 'The Melting Watches'.",
+      "auction": true,
+      "price": 100000,
+      "artist": "Salvador-Dali"
+    },
+    {
+      "name": "Van-Gogh-self-portrait",
+      "item_id": 5,
+      "image": "self-portrait.jpeg",
+      "description": "Dutch Post-Impressionist painter Vincent van Gogh painted a self-portrait in oil on canvas in September 1889. The work, which may have been Van Gogh's last self-portrait, was painted shortly before he left Saint-Rémy-de-Provence in southern France.",
+      "auction": false,
+      "price": 888000,
+      "artist": "Vincent-van-Gogh"
+    },
+    {
+      "name": "Marilyn-Diptych",
+      "item_id": 6,
+      "image": "marilyn-diptych.jpeg",
+      "description": "The Marilyn Diptych (1962) is a silkscreen painting by American pop artist Andy Warhol depicting Marilyn Monroe. The monumental work is one of the artist's most noted of the movie star. The painting consists of 50 images. Each image of the actress is taken from the single publicity photograph from the film Niagara (1953). The underlying publicity photograph that Warhol used as a basis for his many paintings and prints of Marilyn, and the Marilyn Diptych, was owned and distributed by her movie studio. Marilyn Diptych was completed just weeks after Marilyn Monroe's death in August 1962.",
+      "auction": false,
+      "price": 119000,
+      "artist": "Andy-Warhol"
+    },
+    {
+      "name": "Orange-Prince",
+      "item_id": 7,
+      "image": "orange-prince.jpeg",
+      "description": "Orange Prince (1984) is a painting by American artist Andy Warhol, of Prince, the American singer, songwriter, record producer, multi-instrumentalist, actor, and director. The painting is one of twelve silkscreen portraits on canvas of Prince created by Warhol in 1984. These paintings and four additional works on paper are collectively known as the Prince Series.",
+      "auction": false,
+      "price": 67300,
+      "artist": "Andy-Warhol"
+    },
+    {
+      "name": "The-Temptation-of-Saint-Anthony",
+      "item_id": 8,
+      "image": "temptation-of-saint-anthony.jpg",
+      "description": "The Temptation of St. Anthony is a painting by Spanish surrealist artist Salvador Dalí. Painted in 1946, it is a precursor to the body of Dalí's work commonly known as the 'classical period' or the 'Dalí Renaissance'.",
+      "auction": false,
+      "price": 108000,
+      "artist": "Salvador-Dali"
+    },
+    {
+      "name": "The-Weeping-Woman",
+      "image": "weeping-woman.jpeg",
+      "description": "The Weeping Woman (French: La Femme qui pleure) is a series of oil on canvas paintings by Pablo Picasso, the last of which was created in late 1937. The paintings depict Dora Maar, Picasso's mistress and muse. The Weeping Woman paintings were produced by Picasso in response to the bombing of Guernica in the Spanish Civil War and are closely associated with the iconography in his painting Guernica. Picasso was intrigued with the subject of the weeping woman, and revisited the theme numerous times that year.",
+      "auction": true,
+      "highestBid": 120000,
+      "artist": "Pablo-Picasso"
+    },
+    {
+      "name": "Les-Demoiselles-d'Avignon",
+      "item_id": 9,
+      "image": "demoiselles.jpeg",
+      "description": "Les Demoiselles d'Avignon (The Young Ladies of Avignon, originally titled The Brothel of Avignon) is a large oil painting created in 1907 by the Spanish artist Pablo Picasso. The work, part of the permanent collection of the Museum of Modern Art, portrays five nude female prostitutes in a brothel on Carrer d'Avinyó, a street in Barcelona, Spain. Each figure is depicted in a disconcerting confrontational manner and none is conventionally feminine. The women appear slightly menacing and are rendered with angular and disjointed body shapes.",
+      "auction": false,
+      "price": 45000,
+      "artist": "Pablo-Picasso"
+    },
+    {
+      "name": "Sunflowers",
+      "item_id": 10,
+      "image": "sunflowers.jpeg",
+      "description": "Sunflowers (original title, in French: Tournesols) is the title of two series of still life paintings by the Dutch painter Vincent van Gogh. The first series, executed in Paris in 1887, depicts the flowers lying on the ground, while the second set, made a year later in Arles, shows a bouquet of sunflowers in a vase. In the artist's mind both sets were linked by the name of his friend Paul Gauguin, who acquired two of the Paris versions.",
+      "auction": false,
+      "price": 230500,
+      "artist": "Vincent-van-Gogh"
+    },
+    {
+      "name": "The-Last-Supper",
+      "image": "last-supper.jpeg",
+      "description": "The Last Supper is a mural painting by the Italian High Renaissance artist Leonardo da Vinci, dated to c. 1495-1498. The painting represents the scene of the Last Supper of Jesus with the Twelve Apostles, as it is told in the Gospel of John - specifically the moment after Jesus announces that one of his apostles will betray him.",
+      "auction": true,
+      "highestBid": 14070000,
+      "artist": "Leonardo-da-Vinci"
+    },
+    {
+      "name": "Battle-of-Anghiari",
+      "item_id": 11,
+      "image": "battle-of-anghiari.jpeg",
+      "description": "The Battle of Anghiari (1505) was a planned painting by Leonardo da Vinci in the Salone dei Cinquecento (Hall of the Five Hundred) in the Palazzo Vecchio, Florence. Its central scene would have depicted four men riding raging war horses engaged in a battle for possession of a standard at the Battle of Anghiari in 1440.",
+      "auction": false,
+      "price": 55000,
+      "artist": "Leonardo-da-Vinci"
+    },
+    {
+      "name": "Campbells-Soup-Cans",
+      "image": "campbells-soup.jpeg",
+      "description": "Campbell's Soup Cans (sometimes referred to as 32 Campbell's Soup Cans) is a work of art produced between November 1961 and March or April 1962 by American artist Andy Warhol. It consists of thirty-two canvases, each measuring 20 inches (51 cm) in height by 16 inches (41 cm) in width and each consisting of a painting of a Campbell's Soup can—one of each of the canned soup varieties the company offered at the time. The non-painterly works were produced by a screen printing process and depict imagery deriving from popular culture and belong to the pop art movement.",
+      "auction": true,
+      "highestBid": 1367000,
+      "artist": "Andy-Warhol"
+    },
+    {
+      "name": "Metamorphosis-of-Narcissus",
+      "item_id": 12,
+      "image": "metamorphosis-of-narcissus.jpeg",
+      "description": "Metamorphosis of Narcissus (1937) is an oil-on-canvas painting by the Spanish surrealist Salvador Dalí. Originally titled Métamorphose de Narcisse, this painting is from Dalí's paranoiac-critical period and depicts his interpretation of the Greek myth of Narcissus. Dalí began his painting in the spring of 1937 while in Zürs, in the Austrian Alps.",
+      "auction": false,
+      "price": 243000,
+      "artist": "Salvador-Dali"
+    },
+    {
+      "name": "The-Disintegration-of-The-Persistence-of-Memory",
+      "image": "disintegration.jpeg",
+      "description": "La Desintegración de la Persistencia de la Memoria or The Disintegration of the Persistence of Memory is an oil on canvas painting by the Spanish surrealist Salvador Dalí. It is a 1954 re-creation of the artist's famous 1931 work The Persistence of Memory, and measures a diminutive 25.4 by 33 cm. It was originally known as The Chromosome of a Highly-coloured Fish's Eye Starting the Harmonious Disintegration of the Persistence of Memory, and first exhibited at the Carstairs Gallery in New York in 1954.",
+      "auction": true,
+      "highestBid": 534000,
+      "artist": "Salvador-Dali"
+    },
+    {
+      "name": "The-Old-Guitarist",
+      "item_id": 13,
+      "image": "old-guitarist.jpeg",
+      "description": "The Old Guitarist is an oil painting by Pablo Picasso, which he created in late 1903 and early 1904. It depicts an elderly musician, a haggard man with threadbare clothing, who is hunched over his guitar while playing in the streets of Barcelona, Spain.",
+      "auction": false,
+      "price": 93400,
+      "artist": "Pablo-Picasso"
+    },
+    {
+      "name": "Le-Reve",
+      "item_id": 14,
+      "image": "le-reve.jpeg",
+      "description": "Le Rêve (English: The Dream) is a 1932 oil on canvas painting (130 by 97 cm) by Pablo Picasso, then 50 years old, portraying his 22-year-old mistress Marie-Thérèse Walter. It is said to have been painted in one afternoon, on 24 January 1932. It belongs to Picasso's period of distorted depictions, with its oversimplified outlines and contrasted colors resembling early cubism.",
+      "auction": false,
+      "price": 120000,
+      "artist": "Pablo-Picasso"
+    },
+    {
+      "name": "Irises",
+      "item_id": 15,
+      "image": "irises.jpeg",
+      "description": "Irises is one of several paintings of irises by the Dutch artist Vincent van Gogh, and one of a series of paintings he made at the Saint Paul-de-Mausole asylum in Saint-Rémy-de-Provence, France, in the last year before his death in 1890.",
+      "auction": false,
+      "price": 66000,
+      "artist": "Vincent-van-Gogh"
+    },
+    {
+      "name": "Girl-Before-a-Mirror",
+      "item_id": 16,
+      "image": "girl-before-mirror.jpeg",
+      "description": "Girl before a Mirror is an oil on canvas painting by Pablo Picasso, which he created in 1932. The painting is a portrait of Picasso's mistress and muse, Marie-Thérèse Walter, who is depicted standing in front of a mirror looking at her reflection.",
+      "auction": false,
+      "price": 82000,
+      "artist": "Pablo-Picasso"
+    },
+    {
+      "name": "The-Women-of-Algiers",
+      "image": "women-of-algiers.jpeg",
+      "description": "Les Femmes d'Alger (English: Women of Algiers) is a series of 15 paintings and numerous drawings by the Spanish artist Pablo Picasso. The series, created in 1954-1955, was inspired by Eugène Delacroix's 1834 painting The Women of Algiers in their Apartment (French: Femmes d'Alger dans leur appartement). The series is one of several painted by Picasso in tribute to artists that he admired.",
+      "auction": true,
+      "highestBid": 175000,
+      "artist": "Pablo-Picasso"
+    }
+
+  ]
+  

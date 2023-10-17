@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Leonardo-da-Vinci",
+        "image": "leonardo.jpeg",
+        "bio": "Leonardo di ser Piero da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect. While his fame initially rested on his achievements as a painter, he also became known for his notebooks, in which he made drawings and notes on a variety of subjects, including anatomy, astronomy, botany, cartography, painting, and paleontology. Leonardo is widely regarded to have been a genius who epitomized the Renaissance humanist ideal, and his collective works compose a contribution to later generations of artists matched only by that of his younger contemporary, Michelangelo.",
+        "artworks": ["Mona-Lisa", "Saint-Jerome-in-the-Wilderness", "Virgin-of-the-Rocks", "The-Last-Supper", "Battle-of-Anghiari"]
+    },
+    {
+        "name": "Vincent-van-Gogh",
+        "image": "vincent.jpeg",
+        "bio": "Vincent Willem van Gogh was a Dutch Post-Impressionist painter who posthumously became one of the most famous and influential figures in Western art history. In a decade, he created about 2,100 artworks, including around 860 oil paintings, most of which date from the last two years of his life. They include landscapes, still lifes, portraits, and self-portraits, and are characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. He was not commercially successful and, struggling with severe depression and poverty, committed suicide at the age of 37.",
+        "artworks": ["Starry-Night", "The-Potato-Eaters", "Van-Gogh-self-portrait", "Irises", "Sunflowers"]
+    },
+    {
+        "name": "Pablo-Picasso",
+        "image": "pablo.jpeg",
+        "bio": "Pablo Ruiz Picasso was a Spanish painter, sculptor, printmaker, ceramicist and theatre designer who spent most of his adult life in France. Regarded as one of the most influential artists of the 20th century, he is known for co-founding the Cubist movement, the invention of constructed sculpture, the co-invention of collage, and for the wide variety of styles that he helped develop and explore.",
+        "artworks": ["Guernica", "Portrait-of-Dora-Maar", "Les-Demoiselles-d'Avignon", "The-Old-Guitarist", "Le-Reve", "The-Weeping-Woman", "Girl-Before-a-Mirror", "The-Women-of-Algiers"]
+    },
+    {
+        "name": "Salvador-Dali",
+        "image": "salvador.jpeg",
+        "bio": "Salvador Domingo Felipe Jacinto Dalí i Domènech, Marquess of Dalí of Púbol was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work. Born in Figueres, Catalonia, Spain, Dalí received his formal education in fine arts in Madrid. Influenced by Impressionism and the Renaissance masters from a young age he became increasingly attracted to Cubism and avant-garde movements. He moved closer to Surrealism in the late 1920s and joined the Surrealist group in 1929, soon becoming one of its leading exponents.",
+        "artworks": ["The-Persistence-of-Memory", "The-Burning-Giraffe", "The-Temptation-of-Saint-Anthony", "Metamorphasis-of-Narcissus", "The-Disintegration-of-The-Persistence-of-Memory"]
+    },
+    {
+        "name": "Andy-Warhol",
+        "image": "andy.webp",
+        "bio": "Andrew Warhola Jr. was an American visual artist, film director, and producer who was a leading figure in the visual art movement known as pop art. His works explore the relationship between artistic expression, advertising, and celebrity culture that flourished by the 1960s, and span a variety of media, including painting, silkscreening, photography, film, and sculpture.",
+        "artworks": ["Shot-Marilyns", "Campbells-Soup-Cans", "Orange-Prince", "Marilyn-Diptych"]
+    }
+]
