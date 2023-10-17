@@ -2,7 +2,11 @@
   "name": "digital-gallery",
   "version": "1.0.0",
   "description": "Mock online store for purchasing famous artworks",
-  "scripts": {},
+  "scripts": {
+    "start": "node server/app.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
   "author": "Jake Blackburn",
   "license": "ISC",
   "dependencies": {
