@@ -1,6 +1,4 @@
-<template>
-<div class="card-container">
-    <img :src="this.image_url" :alt="artwork.name">
+<template> <div class="card-container"> <img :src="this.image_url" :alt="artwork.name">
     <h4 class="title">{{this.name}}</h4>
     <div class="content">
         <p class="selling-type"><em>{{artwork.auction ? 'auction' : 'fixed price'}}</em></p>
@@ -20,7 +18,7 @@ export default {
     },
     data() {
         return {
-            image_url: `https://artists-ecommerce.herokuapp.com/images/${this.artwork.image}`,
+            image_url: `${ this.$hostname }/images/${this.artwork.image}`,
             name: this.artwork.name.replace(/-/g, " ")
         }
     }

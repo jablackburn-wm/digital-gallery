@@ -46,7 +46,7 @@ export default {
             for (let i = 0; i < this.$store.state.shoppingCart.length; i++) {
                 itemsArray.push({ id: this.$store.state.shoppingCart[i].item_id, quantity: 1 })
             }
-            fetch("https://artists-ecommerce.herokuapp.com/create-checkout-session", {
+            fetch(`${ this.$hostname }/create-checkout-session`, {
                 method: "POST",
                 headers: {
                 "Content-Type": "application/json",

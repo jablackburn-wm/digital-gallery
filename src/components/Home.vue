@@ -27,7 +27,7 @@ export default {
      async created() {
         this.isLoading = true
         try {
-            const artworks = await axios.get('https://artists-ecommerce.herokuapp.com/api/v1/artworks')
+            const artworks = await axios.get(`${ this.$hostname }/api/v1/artworks`)
             this.artworks = artworks.data.artworks
         } catch (err) {
             console.log(err)

@@ -36,10 +36,10 @@ export default {
     async created() {
         try {
             this.isLoading = true
-            const { data } = await axios.get(`https://artists-ecommerce.herokuapp.com/api/v1/artists/profile/${this.$route.params.name}`)
+            const { data } = await axios.get(`${ this.$hostname }/api/v1/artists/profile/${this.$route.params.name}`)
             this.artist = data.artist
             this.artworks = data.artworks
-            this.artist_url = `https://artists-ecommerce.herokuapp.com/images/${data.artist.image}`
+            this.artit_url = `${ this.$hostname }/images/${data.artist.image}`
             this.name = this.artist.name.replace(/-/g, " ")
             this.isLoading = false
         } catch (err) {

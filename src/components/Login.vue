@@ -32,12 +32,12 @@ export default {
     methods: {
         async handleSubmit() {
             try {
-                const { data } = await axios.post('https://artists-ecommerce.herokuapp.com/api/v1/login', {username: this.username, password: this.password})
+                const { data } = await axios.post(`${ this.$hostname }/api/v1/login`, {username: this.username, password: this.password})
                 this.username = ''
                 this.password = ''
                 localStorage.setItem('token', data.token)
                 this.$store.commit('setToken', data.token)
-                const user = await axios.get('https://artists-ecommerce.herokuapp.com/api/v1/auth', {
+                const user = await axios.get(`${ this.$hostname }/api/v1/auth`, {
                     headers: {
                         Authorization: `Bearer ${data.token}`,
                     },
