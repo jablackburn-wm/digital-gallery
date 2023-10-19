@@ -4,5 +4,5 @@ import router from '../router'
 import store from '../store'
 
 const app = createApp(App)
-app.config.globalProperties.$hostname = 'http://localhost:3000'
+app.config.globalProperties.$hostname = 'https://digital-gallery-b298d.web.app'
 app.use(store).use(router).mount('#app')
