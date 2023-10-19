@@ -1,5 +1,6 @@
 require('dotenv').config();
 require('express-async-errors');
+
 const connectDB = require('./db')
 const express = require('express');
 const app = express();
@@ -11,26 +12,7 @@ const storeItems = require('./data/storeItems.js')
 
 const { errorHandlerMiddleware, notFound } = require('./middleware');
 
-dist = path.join(__dirname, '..' ,'/dist')
-
-// middleware
-app.use(express.static(dist));
-
-
-app.get('/', (req, res) => {
-  res.sendFile(path.join(dist, 'index.html'))
-})
-
-app.get('/success', (req, res) => {
-  res.sendFile(path.join(dist, 'success.html'))
-})
-
-app.get('/failure', (req, res) => {
-  res.sendFile(path.join(dist, 'failure.html'))
-})
-
 app.use(express.json());
-
 
 app.post("/create-checkout-session", async (req, res) => {
   try {
@@ -51,8 +33,8 @@ app.post("/create-checkout-session", async (req, res) => {
           quantity: item.quantity,
         }
       }),
-      success_url: `https://artists-ecommerce.herokuapp.com/success`,
-      cancel_url: `https://artists-ecommerce.herokuapp.com/failure`,
+      success_url: `https://digital-gallery-b298d.web.app/success`,
+      cancel_url: `https://digital-gallery-b298d.web.app/failure`,
     })
     res.json({ url: session.url })
   } catch (e) {
@@ -83,3 +65,5 @@ const start = async () => {
 };
 
 start();
+
+module.exports = app
