@@ -1,5 +1,15 @@
 <template>
     <div class="login-container">
+        <div class="details-container">
+            <h2 class="details-title">User Details</h2>
+            <span class="caption">use the following user data to log in. Try using incorrect usernames & passwords to see that it works as intended. This App uses JWT (json web token), so once you sign-in you wont have to re-sign-in unless you click the 'log out' button</span>
+            <ul class="users-list">
+                <li><pre>username: Leonardo_D  -  password: Bestofalltime123!</pre></li>
+                <li><pre>username: Pablo_P  -  password: Neverf1nished44</pre></li>
+                <li><pre>username: Salvator_D  -  password: Surreal630=</pre></li>
+            </ul>
+        </div>
+
         <form class="form" @submit.prevent="handleSubmit()">
             <h5>login</h5>
             <div class="form-row">
@@ -59,11 +69,40 @@ export default {
 
 
 <style scoped>
-
 .login-container {
   display: flex;
   justify-content: center;
 }
+
+.details-container {
+    width: 80%;
+    margin-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(220, 20, 60, 0.8);
+    border-radius: 5px;
+    color: gold;
+
+}
+
+.details-title {
+    font-size: 2.3rem;
+    font-family: Noto Sans;
+}
+
+.caption {
+    padding: 0 30px;
+}
+
+
+.users-list {
+    text-align: start;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
 
 .form {
     display: flex;
