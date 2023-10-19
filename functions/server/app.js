@@ -48,22 +48,14 @@ app.use('/api/v1', mainRouter);
 app.use(errorHandlerMiddleware);
 app.use(notFound);
 
-const port = process.env.PORT || 3000;
 const username = process.env.ATLAS_USERNAME
 const password = process.env.ATLAS_PASSWORD
 
 
-const start = async () => {
-  try {
-    await connectDB(`mongodb+srv://${username}:${password}@portfolio-cluster.sknurkv.mongodb.net/e-commerce?retryWrites=true&w=majority`);
-    app.listen(port, () =>
-      console.log(`Server is listening on port ${port}...`)
-    );
-  } catch (error) {
-    console.log(error);
-  }
-};
-
-start();
+try {
+	await connectDB(`mongodb+srv://${username}:${password}@portfolio-cluster.sknurkv.mongodb.net/e-commerce?retryWrites=true&w=majority`);
+} catch (error) {
+	console.log(error);
+}
 
 module.exports = app
