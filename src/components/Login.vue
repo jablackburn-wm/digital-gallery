@@ -69,10 +69,16 @@ export default {
 
 
 <style scoped>
+
 .login-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 80px;
 }
+
 
 .details-container {
     width: 80%;
@@ -102,7 +108,6 @@ export default {
     color: aliceblue;
     font-size: 1rem;
 }
-
 
 .form {
     display: flex;
@@ -150,7 +155,7 @@ input:focus {
 .btn {
     cursor: pointer;
     font-size: 1.5rem;
-    margin-top: 40px;
+    margin-top: 15px;
     width: 100px;
     padding: 5px;
     background-color: rgb(250, 226, 229);
@@ -160,13 +165,28 @@ input:focus {
 
 .btn:hover {
     color: navy;
-    padding: 7px;
-    margin-top: 38px;
+    margin-top: 14px;
     width: 104px;
     font-size: 1.6rem;
 
 }
 
+.alert {
+    width: 100%;
+    margin-top: 10px;
+    height: 20px;
+    display: flex;
+    color: crimson;
+    justify-content: center;
+}
+
+.alert-msg {
+    background-color: rgba(220, 20, 60, 0.8);
+    border-radius: 5px;
+    color: navy;
+    font-size: 1.5rem;
+    padding: 10px;
+}
 
 @media screen and (max-width: 480px) {
     h5 {
