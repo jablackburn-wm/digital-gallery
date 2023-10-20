@@ -17,6 +17,20 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+  "rewrites": [
+    {
+        "source": "/api/v1/**",
+        "function": "api"
+    },
+    {
+        "source": "/failure",
+        "destination": "/failure.html"
+    },
+    {
+        "source": "/success",
+        "destination": "/success.html"
+    }
+  ]
   }
 }
