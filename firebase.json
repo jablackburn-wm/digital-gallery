@@ -20,10 +20,6 @@
     ],
   "rewrites": [
     {
-        "source": "/api/v1/**",
-        "function": "api"
-    },
-    {
         "source": "/failure",
         "destination": "/failure.html"
     },

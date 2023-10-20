@@ -36,7 +36,7 @@ export default {
     async created() {
         try {
             this.isLoading = true
-            const { data } = await axios.get(`${ this.$hostname }/api/v1/artists/profile/${this.$route.params.name}`)
+            const { data } = await axios.get(`${ this.$hostname }/artists/profile/${this.$route.params.name}`)
             this.artist = data.artist
             this.artworks = data.artworks
             this.artit_url = `${ this.$hostname }/images/${data.artist.image}`

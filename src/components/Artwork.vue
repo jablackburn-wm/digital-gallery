@@ -63,7 +63,7 @@ export default {
             const newArtwork = this.artwork
             newArtwork.highestBid = bid
             try {
-                const res = await axios.patch(`${ this.$hostname }/api/v1/artworks/${this.$route.params.name}`, newArtwork)
+                const res = await axios.patch(`${ this.$hostname }/artworks/${this.$route.params.name}`, newArtwork)
                 this.artwork = res.data.artwork
             } catch (err) {
                 console.log(err)
@@ -74,7 +74,7 @@ export default {
     async created() {
         try {
             this.isLoading = true
-            const { data } = await axios.get(`${ this.$hostname }/api/v1/artworks/${this.$route.params.name}`)
+            const { data } = await axios.get(`${ this.$hostname }/artworks/${this.$route.params.name}`)
             this.artwork = data.artwork
             this.image_url = `${ this.$hostname }/images/${this.artwork.image}`
             this.artist_url =  `/artist/${this.artwork.artist}`

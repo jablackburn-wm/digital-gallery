@@ -28,7 +28,7 @@ export default {
     async created() {
         try {
             this.isLoading = true
-            const artists = await axios.get(`${ this.$hostname }/api/v1/artists`)
+            const artists = await axios.get(`${ this.$hostname }/artists`)
             const length = artists.data.artists.length
             const randIndex = Math.floor(Math.random() * length)
             this.artist = artists.data.artists[randIndex]
