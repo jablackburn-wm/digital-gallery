@@ -39,7 +39,7 @@ export default {
             const { data } = await axios.get(`${ this.$hostname }/artists/profile/${this.$route.params.name}`)
             this.artist = data.artist
             this.artworks = data.artworks
-            this.artit_url = `${ this.$hostname }/images/${data.artist.image}`
+            this.artist_url = `/images/${data.artist.image}`
             this.name = this.artist.name.replace(/-/g, " ")
             this.isLoading = false
         } catch (err) {

@@ -32,7 +32,7 @@ export default {
             const length = artists.data.artists.length
             const randIndex = Math.floor(Math.random() * length)
             this.artist = artists.data.artists[randIndex]
-            this.image_url = `${ this.$hostname }/images/${this.artist.image}`
+            this.image_url = `/images/${this.artist.image}`
             this.artist_url = `/artist/${this.artist.name}`
             this.name = this.artist.name.replace(/-/g, " ")
             this.isLoading = false

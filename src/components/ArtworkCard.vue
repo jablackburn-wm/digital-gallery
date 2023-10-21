@@ -18,7 +18,7 @@ export default {
     },
     data() {
         return {
-            image_url: `${ this.$hostname }/images/${this.artwork.image}`,
+            image_url: `/images/${this.artwork.image}`,
             name: this.artwork.name.replace(/-/g, " ")
         }
     }

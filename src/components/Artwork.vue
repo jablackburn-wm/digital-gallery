@@ -76,7 +76,7 @@ export default {
             this.isLoading = true
             const { data } = await axios.get(`${ this.$hostname }/artworks/${this.$route.params.name}`)
             this.artwork = data.artwork
-            this.image_url = `${ this.$hostname }/images/${this.artwork.image}`
+            this.image_url = `/images/${this.artwork.image}`
             this.artist_url =  `/artist/${this.artwork.artist}`
             this.name = this.artwork.name.replace(/-/g, " ")
             this.artist_name = this.artwork.artist.replace(/-/g, " ")
