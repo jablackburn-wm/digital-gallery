@@ -1,7 +1,7 @@
 <template>
 <div class="success-container">
     <div class="header-container">
-        <a href="https://artists-ecommerce.herokuapp.com">to home</a>
+        <a href="https://digital-gallery-b298d.web.app">to home</a>
     </div>
     <div>
         <h1>Purchase Successful</h1>
