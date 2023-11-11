@@ -7,6 +7,7 @@ This project is a simple but fully functioning e-commerce application where user
 
 The Frontend is Mostly from circa Fall 2022, and was recently revamped and retrofitted for Google's Firebase.
 
+See for yourself: https://digital-gallery-b298d.web.app
 
 ## Usage
 
