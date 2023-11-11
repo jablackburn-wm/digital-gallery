@@ -3,7 +3,7 @@
         <img src="../assets/remove-button.png" alt="exit" class="exit" @click="exit()">
         <div class="header">
             <h3 class="title">Shopping Cart</h3>
-            <p>user: {{this.$store.state.user}}</p>
+            <p>user: {{this.$store.state.user.username}}</p>
         </div>
         <div class="empty" v-if="this.$store.state.shoppingCart.length === 0">cart empty</div>
         <div class="cart-item" v-for="item in this.$store.state.shoppingCart" :key="item._id">
